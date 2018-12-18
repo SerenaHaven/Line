@@ -12,7 +12,7 @@ public class BezierCurveBehaviour : MonoBehaviour {
 	#pragma warning restore 0414
 	#endif
 
-	public void Intialize(int segment, Vector3[] controlPoints)
+	public void Reset(int segment, Vector3[] controlPoints)
 	{
 		this.segment = segment <= 0 ? 1 : segment;
 		this.controlPoints = controlPoints;
